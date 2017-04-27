@@ -1,0 +1,116 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+body{
+    font-family: sans-serif;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+div.logo{
+    padding: 0;
+    
+}
+
+/*nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+div.cities {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+div.cities1 {
+    background-color: black;
+    color: white;
+    margin: 20px 2 20px 2;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px;
+}
+div.cities2 {
+    background-color: black;
+    color: white;
+    margin: 20px 2 20px 2;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px;
+    
+}
+div.line{
+    margin-bottom: 0x;
+    padding: inherit;
+}
+.rotate90{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
